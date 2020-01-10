@@ -2,7 +2,7 @@ Name: mythes-nl
 Summary: Dutch thesaurus
 %define upstreamid 20130131
 Version: 0.%{upstreamid}
-Release: 1%{?dist}
+Release: 2%{?dist}
 Source: http://data.opentaal.org/opentaalbank/thesaurus/download/thes_nl.oxt
 Group: Applications/Text
 URL: http://data.opentaal.org/opentaalbank/thesaurus
@@ -51,6 +51,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20130131-2
+- Mass rebuild 2013-12-27
+
 * Thu Jan 31 2013 Caolán McNamara <caolanm@redhat.com> - 0.20130131-1
 - Resolves: rhbz#905991 latest version
 
